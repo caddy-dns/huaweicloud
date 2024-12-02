@@ -4,7 +4,7 @@ go 1.23
 
 require (
 	github.com/caddyserver/caddy/v2 v2.8.4
-	github.com/libdns/huaweicloud v0.1.0
+	github.com/libdns/huaweicloud v0.3.1
 )
 
 require (
@@ -12,19 +12,13 @@ require (
 	github.com/caddyserver/certmagic v0.21.4 // indirect
 	github.com/caddyserver/zerossl v0.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/go-rat/utils v1.0.3 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/google/pprof v0.0.0-20241017200806-017d972448fc // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.118 // indirect
-	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
 	github.com/libdns/libdns v0.2.2 // indirect
 	github.com/mholt/acmez/v2 v2.0.3 // indirect
 	github.com/miekg/dns v1.1.62 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/onsi/ginkgo/v2 v2.20.2 // indirect
 	github.com/prometheus/client_golang v1.20.5 // indirect
@@ -33,9 +27,7 @@ require (
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/quic-go/quic-go v0.48.0 // indirect
-	github.com/tjfoc/gmsm v1.4.1 // indirect
 	github.com/zeebo/blake3 v0.2.4 // indirect
-	go.mongodb.org/mongo-driver v1.17.1 // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
@@ -51,6 +43,4 @@ require (
 	golang.org/x/time v0.7.0 // indirect
 	golang.org/x/tools v0.26.0 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
-	gopkg.in/ini.v1 v1.67.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
