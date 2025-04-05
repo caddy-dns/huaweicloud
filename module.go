@@ -25,6 +25,7 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 func (p *Provider) Provision(ctx caddy.Context) error {
 	p.Provider.AccessKeyId = caddy.NewReplacer().ReplaceAll(p.Provider.AccessKeyId, "")
 	p.Provider.SecretAccessKey = caddy.NewReplacer().ReplaceAll(p.Provider.SecretAccessKey, "")
+	p.Provider.RegionId = caddy.NewReplacer().ReplaceAll(p.Provider.RegionId, "")
 	return nil
 }
 
@@ -51,6 +52,13 @@ func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 			case "secret_access_key":
 				if d.NextArg() {
 					p.Provider.SecretAccessKey = d.Val()
+				}
+				if d.NextArg() {
+					return d.ArgErr()
+				}
+			case "region_id":
+				if d.NextArg() {
+					p.Provider.RegionId = d.Val()
 				}
 				if d.NextArg() {
 					return d.ArgErr()
