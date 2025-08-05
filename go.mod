@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/libdns/huaweicloud v1.0.0-beta.2
+	github.com/libdns/huaweicloud v1.0.0
 )
 
 require (
@@ -17,7 +17,7 @@ require (
 	github.com/google/pprof v0.0.0-20250403155104-27863c87afa6 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
-	github.com/libdns/libdns v1.0.0 // indirect
+	github.com/libdns/libdns v1.1.0 // indirect
 	github.com/mholt/acmez/v3 v3.1.2 // indirect
 	github.com/miekg/dns v1.1.64 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
